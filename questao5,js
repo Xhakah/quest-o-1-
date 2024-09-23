@@ -6,6 +6,6 @@ function inverterString(str) {
     return invertida;
 }
 
-// Teste com string informada
+
 let string = prompt("Informe uma string para inverter:");
 console.log("String invertida:", inverterString(string));
