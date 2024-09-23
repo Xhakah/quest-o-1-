@@ -12,7 +12,6 @@ function pertenceFibonacci(numero) {
     return false;
 }
 
-// Teste com número informado
 let numero = parseInt(prompt("Informe um número para verificar na sequência de Fibonacci:"));
 if (pertenceFibonacci(numero)) {
     console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
